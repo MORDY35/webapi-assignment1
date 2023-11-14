@@ -85,12 +85,12 @@ currencyConverter
 
 <br />
 
-const base = 'SGD';
-const year = '2023';
-const month = '11';
-const day = '01';
-const target = 'USD'; // Replace with your desired target currency
-const qamount = 100; // Replace with the amount you want to convert
+const base = 'SGD';<br />
+const year = '2023';<br />
+const month = '11';<br />
+const day = '01';<br />
+const target = 'USD'; // Replace with your desired target currency<br />
+const qamount = 100; // Replace with the amount you want to convert<br />
 
 currencyConverter
 .getHistoricalExchangeRate(base, year, month, day, target, qamount)
@@ -105,9 +105,8 @@ currencyConverter
 **getEnrichedData: function(base,target)**
 
 <br />
-
-const base ='SGD';
-const target ='USD';
+const base ='SGD';<br />
+const target ='USD';<br />
 
 currencyConverter.getEnrichedData(base,target) 
 .then((enrichedData)=>{
@@ -128,5 +127,5 @@ The result should appear in the terminal.
 <br />
 
 # 5) **References**
-- [Documentation of External API]: "https://www.exchangerate-api.com/docs/overview"
-- [Link to see Raw data in JSON]: "https://v6.exchangerate-api.com/v6/7c010b3a553be2dc1a88ec8f/latest/SGD"
+- Documentation of External API: "https://www.exchangerate-api.com/docs/overview"
+- Link to see Raw data in JSON: "https://v6.exchangerate-api.com/v6/7c010b3a553be2dc1a88ec8f/latest/SGD"
