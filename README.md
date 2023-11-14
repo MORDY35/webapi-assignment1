@@ -63,7 +63,7 @@ currencyConverter
   });
 <br />
 
-**getlistofCurrencies**<br /> 
+**getlistofCurrencies**:<br /> 
 currencyConverter
 .getlistofCurrencies()
 .then((currencyList) => {
@@ -75,7 +75,7 @@ currencyConverter
 });
 <br />
 
-**getHistoricalExchangeRate** <br />
+**getHistoricalExchangeRate**:<br />
 const base = 'SGD';<br />
 const year = '2023';<br />
 const month = '11';<br />
@@ -94,7 +94,7 @@ currencyConverter
 ) 
 <br />
 
-**getEnrichedDat**<br />
+**getEnrichedData**:<br />
 const base ='SGD';<br />
 const target ='USD';<br />
 
