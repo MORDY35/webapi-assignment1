@@ -37,9 +37,9 @@ This application has 5 functions:
 <br />
 
 **convertCurrency**: <br />
-const amount = 1; 
-const fromCurrency = 'SGD'; 
-const toCurrency = 'USD'; 
+const amount = 1; <br />
+const fromCurrency = 'SGD'; <br />
+const toCurrency = 'USD'; <br />
 
 currencyConverter
   .convertCurrency(amount, fromCurrency, toCurrency)
