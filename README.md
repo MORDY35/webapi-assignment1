@@ -35,11 +35,7 @@ This application has 5 functions:
 # 3) Examples of how to use 
 
 <br />
-
 **convertCurrency: function()**: 
-
-<br />
-
 const amount = 1; 
 const fromCurrency = 'SGD'; 
 const toCurrency = 'USD'; 
@@ -52,11 +48,9 @@ currencyConverter
   .catch((error) => {
     console.error(error.message);
   });
-
-**getExchangeRates: function()**: 
-
 <br />
 
+**getExchangeRates: function()**: 
 currencyConverter
 .getExchangeRates()
   .then((exchangeRates) => {
@@ -66,11 +60,9 @@ currencyConverter
   .catch((error) => {
     console.error('Error fetching exchange rates:', error.message);
   });
-
-**getlistofCurrencies**
-
 <br />
 
+**getlistofCurrencies**
 currencyConverter
 .getlistofCurrencies()
 .then((currencyList) => {
@@ -80,11 +72,9 @@ currencyConverter
 .catch((error) => {
   console.error('Error fetching available currencies:', error.message);
 });
-
-**getHistoricalExchangeRate**
-
 <br />
 
+**getHistoricalExchangeRate**
 const base = 'SGD';<br />
 const year = '2023';<br />
 const month = '11';<br />
@@ -101,10 +91,9 @@ currencyConverter
     console.error('Error fetching historical exchange rates:', error.message);
   }
 ) 
+<br />
 
 **getEnrichedData: function(base,target)**
-
-<br />
 const base ='SGD';<br />
 const target ='USD';<br />
 
