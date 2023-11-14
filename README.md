@@ -35,7 +35,8 @@ This application has 5 functions:
 # 3) Examples of how to use 
 
 <br />
-**convertCurrency: function()**: 
+
+**convertCurrency**: <br />
 const amount = 1; 
 const fromCurrency = 'SGD'; 
 const toCurrency = 'USD'; 
@@ -50,7 +51,7 @@ currencyConverter
   });
 <br />
 
-**getExchangeRates: function()**: 
+**getExchangeRates**: <br />
 currencyConverter
 .getExchangeRates()
   .then((exchangeRates) => {
@@ -62,7 +63,7 @@ currencyConverter
   });
 <br />
 
-**getlistofCurrencies**
+**getlistofCurrencies**<br /> 
 currencyConverter
 .getlistofCurrencies()
 .then((currencyList) => {
@@ -74,7 +75,7 @@ currencyConverter
 });
 <br />
 
-**getHistoricalExchangeRate**
+**getHistoricalExchangeRate** <br />
 const base = 'SGD';<br />
 const year = '2023';<br />
 const month = '11';<br />
@@ -93,7 +94,7 @@ currencyConverter
 ) 
 <br />
 
-**getEnrichedData: function(base,target)**
+**getEnrichedDat**<br />
 const base ='SGD';<br />
 const target ='USD';<br />
 
