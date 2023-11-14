@@ -17,7 +17,7 @@ module.exports = {
     },
 
    //When called it will convert currency based on the stated amount, from the base currency like SGD to something like USD
-    convertCurrency : function(amount, from, to) {
+    convertCurrency: function(amount, from, to) {
         return this.getExchangeRates()
             .then((exchangeRates) => {
                 if (!exchangeRates[from] || !exchangeRates[to]) {
